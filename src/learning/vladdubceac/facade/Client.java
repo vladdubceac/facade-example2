@@ -9,5 +9,8 @@ public class Client {
         NonVegMenu nv = keeper.getNonVegMenu();
         Both b = keeper.getVegNonBothMenu();
 
+        v.showMenu();
+        nv.showMenu();
+        b.showMenu();
     }
 }
